@@ -3,10 +3,12 @@ import gradio as gr
 
 class FormComponent:
     def get_expected_parent(self):
-        return gr.components.Form
+        # return gr.components.Form
+        return gr.layouts.Form
+
 
 # this was breaking regular dropdowns
-#gr.Dropdown.get_expected_parent = FormComponent.get_expected_parent
+# gr.Dropdown.get_expected_parent = FormComponent.get_expected_parent
 
 
 class ToolButton(FormComponent, gr.Button):
@@ -57,6 +59,7 @@ class FormColorPicker(FormComponent, gr.ColorPicker):
 
 class DropdownMulti(FormComponent, gr.Dropdown):
     """Same as gr.Dropdown but always multiselect"""
+
     def __init__(self, **kwargs):
         super().__init__(multiselect=True, **kwargs)
 
@@ -66,9 +69,9 @@ class DropdownMulti(FormComponent, gr.Dropdown):
 
 class DropdownEditable(FormComponent, gr.Dropdown):
     """Same as gr.Dropdown but allows editing value"""
+
     def __init__(self, **kwargs):
         super().__init__(allow_custom_value=True, **kwargs)
 
     def get_block_name(self):
         return "dropdown"
-

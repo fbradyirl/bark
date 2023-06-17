@@ -11,8 +11,8 @@
 ## Install Steps
 0. You don't need anything installed ahead of titme. No Pytorch. No Cuda. Not even Python. The only thing you need is the regular Windows NVIDIA drivers.
 0. (Optional But Recommended) Install the fancier Windows Command Line Terminal https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701  
-1. Download this zip file: [one-click-bark-installer_june16_23.zip](https://github.com/JonathanFly/bark/raw/main/one-click-bark-installer/one-click-bark-installer_june16_23.zip)
-2. Extractt the zip file into a directory. Choose a place where Bark will be installed. You will see about six small files.
+1. Download this zip file: [barkinstall_06_17_23.zip](https://github.com/JonathanFly/bark/raw/main/one-click-bark-installer/barkinstall_06_17_23.zip)
+2. Extract the zip file into a directory. Choose a place where Bark will be installed. You will see about six small files.
 3. Click on `INSTALL_bark_infinity_windows.bat` (should not need to be administrator)
 4. If it finished with no errors, close that terminal windows.
 5. Click `LAUNCH_already_installed_bark_infinity_windows.bat`

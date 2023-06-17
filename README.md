@@ -7,7 +7,7 @@
 
 # 🎉 Bark One Click Windows Installer 🎉  
 
-
+## Note, make sure you fully extract the .zip file before running the .bat files. Check this image if you aren't sure: [install_help.PNG](https://raw.githubusercontent.com/JonathanFly/bark/main/one-click-bark-installer/install_help.PNG)
 ## Install Steps
 0. You don't need anything installed ahead of titme. No Pytorch. No Cuda. Not even Python. The only thing you need is the regular Windows NVIDIA drivers.
 0. (Optional But Recommended) Install the fancier Windows Command Line Terminal https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701  

@@ -7,24 +7,32 @@
 
 # 🎉 Bark One Click Windows Installer 🎉  
 
+
+## Install Steps
+0. You don't need anything installed ahead of titme. No Pytorch. No Cuda. Not even Python. The only thing you need is the regular Windows NVIDIA drivers.
+0. (Optional But Recommended) Install the fancier Windows Command Line Terminal https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701  
+1. Download this zip file: [one-click-bark-installer_june16_23.zip](https://github.com/JonathanFly/bark/raw/main/one-click-bark-installer/one-click-bark-installer_june16_23.zip)
+2. Extractt the zip file into a directory. Choose a place where Bark will be installed. You will see about six small files.
+3. Click on `INSTALL_bark_infinity_windows.bat` (should not need to be administrator)
+4. If it finished with no errors, close that terminal windows.
+5. Click `LAUNCH_already_installed_bark_infinity_windows.bat`
+
+### Trouble Shooting, or want to use the non GUI Bark
+
+Click `TROUBLESHOOT_bark_setup_manually_by_entering_the_conda_environment.bat`
+```
+cd bark
+python bark_perform.py
+python bark_perform.py --help
+```
 ![LAUNCH_already_installed_bark_infinity_windows.bat](https://github.com/JonathanFly/bark/assets/163408/fcd91d15-6bee-44c7-8c99-95ca48fbc1d5)
-
-
-Download this zip file: [https://github.com/JonathanFly/bark/releases/tag/one-click-bark-installer](https://github.com/JonathanFly/bark/releases/tag/one-click-bark-installer) 
-
-1. Download this zip file: [one-click-bark-installer.zip](https://github.com/JonathanFly/bark/releases/tag/one-click-bark-installer) 
-2. Click on ***INSTALL_bark_infinity_windows.bat***
-3. Wait
-4. Clik LAUNCH_already_installed_bark_infinity_windows.bat
-
-
 
 ⚡ Low GPU memory? No problem. CPU offloading. ⚡ Somewhat easy install?
 
 # 🎉 Install Bark Infinity Any OS With Mamba (or Conda) 🎉  
 
 
-## Mamba Install (Still Works) 
+## Mamba Install (Still Works) (Being Updated June 16, 17...) 
 
 ![cpic](https://github.com/JonathanFly/bark/assets/163408/65ad739d-552e-43d2-b937-8c83837bdf8b)
 

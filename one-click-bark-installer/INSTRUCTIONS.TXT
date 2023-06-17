@@ -5,11 +5,14 @@ Thank you for downloading https://github.com/JonathanFly/bark
 Run:
     INSTALL_bark_infinity_windows.bat
 
-To launch the web UI in the future after it is already installed, run:
+(After Install, close terminal window)
+
+Start:
   LAUNCH_already_installed_bark_infinity_windows.bat
 
-To launch the CLI or just the env:
-  ENTER_CONDA_ENV.bat
+
+To launch the CLI or troubleshoot the Bark Setup Environment.
+  TROUBLESHOOT_bark_setup_manually_by_entering_the_conda_environment.bat
 
 # Updating the web UI
 

@@ -7,6 +7,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get -qq install --no-install-recommends \
     libsndfile1-dev \
     git \
+    build-essential \
     python${PYTHON_VERSION} \
     python${PYTHON_VERSION}-venv \
     python3-pip \
